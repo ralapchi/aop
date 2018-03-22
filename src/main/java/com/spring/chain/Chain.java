@@ -15,7 +15,6 @@ public class Chain {
     }
 
     public void proceed() {
-
         if (index >= chainHandlerList.size()) {
             return;
         }
